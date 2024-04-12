@@ -1,0 +1,11 @@
+
+body
+{
+    background-image: url("./img/fondiño.jpg");
+    background-size: cover;
+}
+.contenedorPrincipal {
+    display: flex;
+    justify-content: center;
+}
+
