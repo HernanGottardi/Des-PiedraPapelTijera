@@ -1,0 +1,1 @@
+{"mappings":"AACA;;;;;AAKA","sources":["src/styles.css"],"sourcesContent":["\r\nbody\r\n{\r\n    background-image: url(\"./img/fondiño.jpg\");\r\n    background-size: cover;\r\n}\r\n.contenedorPrincipal {\r\n    display: flex;\r\n    justify-content: center;\r\n}\r\n\r\n"],"names":[],"version":3,"file":"index.4d663569.css.map","sourceRoot":"/__parcel_source_root/"}
