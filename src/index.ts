@@ -1,11 +1,10 @@
-import {state} from "../src/state"
+import {state} from "./state"
 
 import { initText } from "./components/texto";
 import { initBoton } from "./components/boton";
 import { initLista } from "./components/lista";
 
 import {initRouter} from "./routes/rooter"
-
 
 (function()
 {
@@ -15,8 +14,7 @@ import {initRouter} from "./routes/rooter"
 
     state.init();
 
-
-    const contenedor = document.querySelector(".contenedorPrincipal");
+    const contenedor = document.querySelector(".contenedorPrincipal") as HTMLElement;
     initRouter(contenedor);
     
 })();
